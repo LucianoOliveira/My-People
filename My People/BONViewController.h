@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface BONViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIView *availableOption;
+@property (weak, nonatomic) IBOutlet UIView *selectedOption;
+
+@property (nonatomic, strong) NSManagedObjectContext *managedObjectContext;
+
+
 
 @end

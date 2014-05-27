@@ -13,7 +13,6 @@
 		923493CB192D381800A167D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 923493C9192D381800A167D7 /* InfoPlist.strings */; };
 		923493CD192D381800A167D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 923493CC192D381800A167D7 /* main.m */; };
 		923493D1192D381800A167D7 /* BONAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 923493D0192D381800A167D7 /* BONAppDelegate.m */; };
-		923493D4192D381800A167D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 923493D2192D381800A167D7 /* Main.storyboard */; };
 		923493D7192D381800A167D7 /* BONViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 923493D6192D381800A167D7 /* BONViewController.m */; };
 		923493D9192D381800A167D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 923493D8192D381800A167D7 /* Images.xcassets */; };
 		923493E0192D381800A167D7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 923493DF192D381800A167D7 /* XCTest.framework */; };
@@ -21,6 +20,23 @@
 		923493E2192D381800A167D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 923493C4192D381800A167D7 /* UIKit.framework */; };
 		923493EA192D381800A167D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 923493E8192D381800A167D7 /* InfoPlist.strings */; };
 		923493EC192D381800A167D7 /* My_PeopleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 923493EB192D381800A167D7 /* My_PeopleTests.m */; };
+		923493F8192D389400A167D7 /* Default-LandscapeLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 923493F6192D389400A167D7 /* Default-LandscapeLeft.png */; };
+		923493F9192D389400A167D7 /* Default-LandscapeLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 923493F7192D389400A167D7 /* Default-LandscapeLeft@2x.png */; };
+		92349400192D38D500A167D7 /* LateralViewBackgroundLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 923493FC192D38D500A167D7 /* LateralViewBackgroundLeft.png */; };
+		92349401192D38D500A167D7 /* LateralViewBackgroundLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 923493FD192D38D500A167D7 /* LateralViewBackgroundLeft@2x.png */; };
+		92349402192D38D500A167D7 /* LateralViewBackgroundRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 923493FE192D38D500A167D7 /* LateralViewBackgroundRight.png */; };
+		92349403192D38D500A167D7 /* LateralViewBackgroundRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 923493FF192D38D500A167D7 /* LateralViewBackgroundRight@2x.png */; };
+		92349405192D3A2100A167D7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92349404192D3A2100A167D7 /* CoreData.framework */; };
+		92349408192D3CE800A167D7 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 92349406192D3CE800A167D7 /* Model.xcdatamodeld */; };
+		9234940E192D4F2200A167D7 /* NSString+converterCSV.m in Sources */ = {isa = PBXBuildFile; fileRef = 9234940D192D4F2200A167D7 /* NSString+converterCSV.m */; };
+		92349410192D4FA700A167D7 /* Resources.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9234940F192D4FA700A167D7 /* Resources.csv */; };
+		92349418192D658500A167D7 /* People+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 92349417192D658500A167D7 /* People+Extra.m */; };
+		9234941F192D67CC00A167D7 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 9234941E192D67CC00A167D7 /* People.m */; };
+		92636DE7192EA8C400B00A63 /* BON_availableOptionsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92636DE6192EA8C400B00A63 /* BON_availableOptionsCollectionViewController.m */; };
+		92636DEA192EB13C00B00A63 /* BON_Custom_availableOptionsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92636DE9192EB13C00B00A63 /* BON_Custom_availableOptionsCollectionViewCell.m */; };
+		92636DED192FD59E00B00A63 /* triangleSelectionBellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 92636DEC192FD59E00B00A63 /* triangleSelectionBellow.png */; };
+		92636DF1193286C200B00A63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92636DF0193286C200B00A63 /* Main.storyboard */; };
+		92636DF4193299DB00B00A63 /* BON_selectedCriteriaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92636DF3193299DB00B00A63 /* BON_selectedCriteriaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +60,6 @@
 		923493CE192D381800A167D7 /* My People-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "My People-Prefix.pch"; sourceTree = "<group>"; };
 		923493CF192D381800A167D7 /* BONAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BONAppDelegate.h; sourceTree = "<group>"; };
 		923493D0192D381800A167D7 /* BONAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BONAppDelegate.m; sourceTree = "<group>"; };
-		923493D3192D381800A167D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		923493D5192D381800A167D7 /* BONViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BONViewController.h; sourceTree = "<group>"; };
 		923493D6192D381800A167D7 /* BONViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BONViewController.m; sourceTree = "<group>"; };
 		923493D8192D381800A167D7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -53,6 +68,29 @@
 		923493E7192D381800A167D7 /* My PeopleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "My PeopleTests-Info.plist"; sourceTree = "<group>"; };
 		923493E9192D381800A167D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		923493EB192D381800A167D7 /* My_PeopleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My_PeopleTests.m; sourceTree = "<group>"; };
+		923493F6192D389400A167D7 /* Default-LandscapeLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-LandscapeLeft.png"; path = "../../B-ON Images/Background/Default-LandscapeLeft.png"; sourceTree = "<group>"; };
+		923493F7192D389400A167D7 /* Default-LandscapeLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-LandscapeLeft@2x.png"; path = "../../B-ON Images/Background/Default-LandscapeLeft@2x.png"; sourceTree = "<group>"; };
+		923493FC192D38D500A167D7 /* LateralViewBackgroundLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LateralViewBackgroundLeft.png; path = "../../B-ON Images/Background/Lateral/LateralViewBackgroundLeft.png"; sourceTree = "<group>"; };
+		923493FD192D38D500A167D7 /* LateralViewBackgroundLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LateralViewBackgroundLeft@2x.png"; path = "../../B-ON Images/Background/Lateral/LateralViewBackgroundLeft@2x.png"; sourceTree = "<group>"; };
+		923493FE192D38D500A167D7 /* LateralViewBackgroundRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LateralViewBackgroundRight.png; path = "../../B-ON Images/Background/Lateral/LateralViewBackgroundRight.png"; sourceTree = "<group>"; };
+		923493FF192D38D500A167D7 /* LateralViewBackgroundRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LateralViewBackgroundRight@2x.png"; path = "../../B-ON Images/Background/Lateral/LateralViewBackgroundRight@2x.png"; sourceTree = "<group>"; };
+		92349404192D3A2100A167D7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		92349407192D3CE800A167D7 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		9234940C192D4F2200A167D7 /* NSString+converterCSV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+converterCSV.h"; path = "../../../../../../Volumes/SANDISK/Documents/Dropbox/Projectos/Xcode Projects/My Cartography BP2S Final/MyCartography/NSString+converterCSV.h"; sourceTree = "<group>"; };
+		9234940D192D4F2200A167D7 /* NSString+converterCSV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+converterCSV.m"; path = "../../../../../../Volumes/SANDISK/Documents/Dropbox/Projectos/Xcode Projects/My Cartography BP2S Final/MyCartography/NSString+converterCSV.m"; sourceTree = "<group>"; };
+		9234940F192D4FA700A167D7 /* Resources.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Resources.csv; path = ../../../Resources.csv; sourceTree = "<group>"; };
+		92349416192D658500A167D7 /* People+Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "People+Extra.h"; sourceTree = "<group>"; };
+		92349417192D658500A167D7 /* People+Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "People+Extra.m"; sourceTree = "<group>"; };
+		9234941D192D67CC00A167D7 /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		9234941E192D67CC00A167D7 /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+		92636DE5192EA8C400B00A63 /* BON_availableOptionsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BON_availableOptionsCollectionViewController.h; path = ../BON_availableOptionsCollectionViewController.h; sourceTree = "<group>"; };
+		92636DE6192EA8C400B00A63 /* BON_availableOptionsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BON_availableOptionsCollectionViewController.m; path = ../BON_availableOptionsCollectionViewController.m; sourceTree = "<group>"; };
+		92636DE8192EB13C00B00A63 /* BON_Custom_availableOptionsCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BON_Custom_availableOptionsCollectionViewCell.h; path = ../BON_Custom_availableOptionsCollectionViewCell.h; sourceTree = "<group>"; };
+		92636DE9192EB13C00B00A63 /* BON_Custom_availableOptionsCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BON_Custom_availableOptionsCollectionViewCell.m; path = ../BON_Custom_availableOptionsCollectionViewCell.m; sourceTree = "<group>"; };
+		92636DEC192FD59E00B00A63 /* triangleSelectionBellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = triangleSelectionBellow.png; path = "../../B-ON Images/Buttons/information/triangleSelectionBellow.png"; sourceTree = "<group>"; };
+		92636DF0193286C200B00A63 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		92636DF2193299DB00B00A63 /* BON_selectedCriteriaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BON_selectedCriteriaViewController.h; sourceTree = "<group>"; };
+		92636DF3193299DB00B00A63 /* BON_selectedCriteriaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BON_selectedCriteriaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92349405192D3A2100A167D7 /* CoreData.framework in Frameworks */,
 				923493C3192D381800A167D7 /* CoreGraphics.framework in Frameworks */,
 				923493C5192D381800A167D7 /* UIKit.framework in Frameworks */,
 				923493C1192D381800A167D7 /* Foundation.framework in Frameworks */,
@@ -82,6 +121,10 @@
 		923493B4192D381800A167D7 = {
 			isa = PBXGroup;
 			children = (
+				92636DF0193286C200B00A63 /* Main.storyboard */,
+				92349406192D3CE800A167D7 /* Model.xcdatamodeld */,
+				923493F5192D386E00A167D7 /* images */,
+				92349414192D50A700A167D7 /* Model Classes */,
 				923493C6192D381800A167D7 /* My People */,
 				923493E5192D381800A167D7 /* My PeopleTests */,
 				923493BF192D381800A167D7 /* Frameworks */,
@@ -101,6 +144,7 @@
 		923493BF192D381800A167D7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				92349404192D3A2100A167D7 /* CoreData.framework */,
 				923493C0192D381800A167D7 /* Foundation.framework */,
 				923493C2192D381800A167D7 /* CoreGraphics.framework */,
 				923493C4192D381800A167D7 /* UIKit.framework */,
@@ -114,11 +158,16 @@
 			children = (
 				923493CF192D381800A167D7 /* BONAppDelegate.h */,
 				923493D0192D381800A167D7 /* BONAppDelegate.m */,
-				923493D2192D381800A167D7 /* Main.storyboard */,
 				923493D5192D381800A167D7 /* BONViewController.h */,
 				923493D6192D381800A167D7 /* BONViewController.m */,
+				92636DE5192EA8C400B00A63 /* BON_availableOptionsCollectionViewController.h */,
+				92636DE6192EA8C400B00A63 /* BON_availableOptionsCollectionViewController.m */,
+				92636DE8192EB13C00B00A63 /* BON_Custom_availableOptionsCollectionViewCell.h */,
+				92636DE9192EB13C00B00A63 /* BON_Custom_availableOptionsCollectionViewCell.m */,
 				923493D8192D381800A167D7 /* Images.xcassets */,
 				923493C7192D381800A167D7 /* Supporting Files */,
+				92636DF2193299DB00B00A63 /* BON_selectedCriteriaViewController.h */,
+				92636DF3193299DB00B00A63 /* BON_selectedCriteriaViewController.m */,
 			);
 			path = "My People";
 			sourceTree = "<group>";
@@ -126,6 +175,9 @@
 		923493C7192D381800A167D7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9234940F192D4FA700A167D7 /* Resources.csv */,
+				9234940C192D4F2200A167D7 /* NSString+converterCSV.h */,
+				9234940D192D4F2200A167D7 /* NSString+converterCSV.m */,
 				923493C8192D381800A167D7 /* My People-Info.plist */,
 				923493C9192D381800A167D7 /* InfoPlist.strings */,
 				923493CC192D381800A167D7 /* main.m */,
@@ -150,6 +202,63 @@
 				923493E8192D381800A167D7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		923493F5192D386E00A167D7 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				92636DEB192FD58400B00A63 /* Icons */,
+				923493FB192D38BC00A167D7 /* SideBars */,
+				923493FA192D38AD00A167D7 /* Background */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		923493FA192D38AD00A167D7 /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				923493F6192D389400A167D7 /* Default-LandscapeLeft.png */,
+				923493F7192D389400A167D7 /* Default-LandscapeLeft@2x.png */,
+			);
+			name = Background;
+			sourceTree = "<group>";
+		};
+		923493FB192D38BC00A167D7 /* SideBars */ = {
+			isa = PBXGroup;
+			children = (
+				923493FC192D38D500A167D7 /* LateralViewBackgroundLeft.png */,
+				923493FD192D38D500A167D7 /* LateralViewBackgroundLeft@2x.png */,
+				923493FE192D38D500A167D7 /* LateralViewBackgroundRight.png */,
+				923493FF192D38D500A167D7 /* LateralViewBackgroundRight@2x.png */,
+			);
+			name = SideBars;
+			sourceTree = "<group>";
+		};
+		92349414192D50A700A167D7 /* Model Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9234941D192D67CC00A167D7 /* People.h */,
+				9234941E192D67CC00A167D7 /* People.m */,
+				92349419192D659400A167D7 /* Model Categories */,
+			);
+			name = "Model Classes";
+			sourceTree = "<group>";
+		};
+		92349419192D659400A167D7 /* Model Categories */ = {
+			isa = PBXGroup;
+			children = (
+				92349416192D658500A167D7 /* People+Extra.h */,
+				92349417192D658500A167D7 /* People+Extra.m */,
+			);
+			name = "Model Categories";
+			sourceTree = "<group>";
+		};
+		92636DEB192FD58400B00A63 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				92636DEC192FD59E00B00A63 /* triangleSelectionBellow.png */,
+			);
+			name = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +338,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				923493F8192D389400A167D7 /* Default-LandscapeLeft.png in Resources */,
+				923493F9192D389400A167D7 /* Default-LandscapeLeft@2x.png in Resources */,
 				923493D9192D381800A167D7 /* Images.xcassets in Resources */,
+				92349400192D38D500A167D7 /* LateralViewBackgroundLeft.png in Resources */,
+				92349403192D38D500A167D7 /* LateralViewBackgroundRight@2x.png in Resources */,
+				92636DF1193286C200B00A63 /* Main.storyboard in Resources */,
 				923493CB192D381800A167D7 /* InfoPlist.strings in Resources */,
-				923493D4192D381800A167D7 /* Main.storyboard in Resources */,
+				92636DED192FD59E00B00A63 /* triangleSelectionBellow.png in Resources */,
+				92349401192D38D500A167D7 /* LateralViewBackgroundLeft@2x.png in Resources */,
+				92349410192D4FA700A167D7 /* Resources.csv in Resources */,
+				92349402192D38D500A167D7 /* LateralViewBackgroundRight.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,8 +368,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				923493D1192D381800A167D7 /* BONAppDelegate.m in Sources */,
+				9234940E192D4F2200A167D7 /* NSString+converterCSV.m in Sources */,
+				92636DEA192EB13C00B00A63 /* BON_Custom_availableOptionsCollectionViewCell.m in Sources */,
 				923493CD192D381800A167D7 /* main.m in Sources */,
+				9234941F192D67CC00A167D7 /* People.m in Sources */,
 				923493D7192D381800A167D7 /* BONViewController.m in Sources */,
+				92349408192D3CE800A167D7 /* Model.xcdatamodeld in Sources */,
+				92349418192D658500A167D7 /* People+Extra.m in Sources */,
+				92636DF4193299DB00B00A63 /* BON_selectedCriteriaViewController.m in Sources */,
+				92636DE7192EA8C400B00A63 /* BON_availableOptionsCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,14 +405,6 @@
 				923493CA192D381800A167D7 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		923493D2192D381800A167D7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				923493D3192D381800A167D7 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		923493E8192D381800A167D7 /* InfoPlist.strings */ = {
@@ -459,6 +575,7 @@
 				923493F1192D381800A167D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		923493F2192D381800A167D7 /* Build configuration list for PBXNativeTarget "My PeopleTests" */ = {
 			isa = XCConfigurationList;
@@ -467,8 +584,22 @@
 				923493F4192D381800A167D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		92349406192D3CE800A167D7 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				92349407192D3CE800A167D7 /* Model.xcdatamodel */,
+			);
+			currentVersion = 92349407192D3CE800A167D7 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 923493B5192D381800A167D7 /* Project object */;
 }
