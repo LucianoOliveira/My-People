@@ -484,7 +484,7 @@
                 [cell.customLabel setText:@"Technology"];
                 [cell.customView setTag:4];
                 
-                if ([_thirdLevelCriteria objectForKey:@"technologyUsed"]) {
+                if ([_thirdLevelCriteria objectForKey:@"Technology"]) {
                     //[cell.customView setBackgroundColor:[UIColor yellowColor]];
                     [cell.asSelectionsBellow setHidden:NO];
                 }
@@ -497,7 +497,7 @@
                 [cell.customLabel setText:@"Operating System"];
                 [cell.customView setTag:5];
                 
-                if ([_thirdLevelCriteria objectForKey:@"operatingSystem"]) {
+                if ([_thirdLevelCriteria objectForKey:@"Operating System"]) {
                     //[cell.customView setBackgroundColor:[UIColor yellowColor]];
                     [cell.asSelectionsBellow setHidden:NO];
                 }
