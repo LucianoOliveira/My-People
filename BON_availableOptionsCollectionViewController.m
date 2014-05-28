@@ -614,7 +614,7 @@
  
         //Activity
         else if ([_selectedCriteria isEqualToString:@"Function"]) {
-            NSString *businessText = [fetchedDictionary objectForKey:@"function"];
+            NSString *businessText = [fetchedDictionary objectForKey:@"functionPerformed"];
             [cell.customLabel setText:businessText];
             
             NSArray *arrayWithCriteria = [_thirdLevelCriteria objectForKey:_secondSelectedCriteria];
@@ -959,14 +959,14 @@
             
             [fetchRequest setEntity:entity];
             
-            sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@"function" ascending:YES];
+            sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@"functionPerformed" ascending:YES];
             
             NSArray *arrayWithSortDescriptors = [NSArray arrayWithObject:sortDescriptor];
             
             [fetchRequest setSortDescriptors:arrayWithSortDescriptors];
             
             NSDictionary *entityProperties = [entity propertiesByName];
-            [fetchRequest setPropertiesToFetch:[NSArray arrayWithObject:[entityProperties objectForKey:@"function"]]];
+            [fetchRequest setPropertiesToFetch:[NSArray arrayWithObject:[entityProperties objectForKey:@"functionPerformed"]]];
             [fetchRequest setReturnsDistinctResults:YES];
             
         }

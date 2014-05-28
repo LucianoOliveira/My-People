@@ -261,10 +261,10 @@
         for (NSString *string in arrayOfFunctions){
             
             if ([arrayOfFunctions indexOfObject:string] < [arrayOfFunctions count] -1) {
-                predicateString = [predicateString stringByAppendingString:[NSString stringWithFormat:@"function LIKE '%@' OR ",string]];
+                predicateString = [predicateString stringByAppendingString:[NSString stringWithFormat:@"functionPerformed LIKE '%@' OR ",string]];
             }
             else{
-                predicateString = [predicateString stringByAppendingString:[NSString stringWithFormat:@"function LIKE '%@'",string]];
+                predicateString = [predicateString stringByAppendingString:[NSString stringWithFormat:@"functionPerformed LIKE '%@'",string]];
             }
             
         }
@@ -292,7 +292,7 @@
         predicateString = [predicateString stringByAppendingString:@") "];
     }
     
-    NSMutableArray *arrayOfOSs = [NSMutableArray arrayWithArray:[_thirdLevelCriteria objectForKey:@"OperatingSystems"]];
+    NSMutableArray *arrayOfOSs = [NSMutableArray arrayWithArray:[_thirdLevelCriteria objectForKey:@"Operating System"]];
     
     if ([arrayOfOSs count] > 0) {
         
@@ -313,7 +313,7 @@
     }
     
     //FOR STAFF STATUS
-    NSMutableArray *arrayOfGlobal = [NSMutableArray arrayWithArray:[_thirdLevelCriteria objectForKey:@"Global"]];
+    NSMutableArray *arrayOfGlobal = [NSMutableArray arrayWithArray:[_thirdLevelCriteria objectForKey:@"Global Status"]];
     
     if ([arrayOfGlobal count] > 0) {
         
@@ -363,8 +363,25 @@
         //
     }
     else{
-        filterPredicate = [NSPredicate predicateWithFormat:predicateString];
-        [request setPredicate:filterPredicate];
+        
+        @try
+        {
+            filterPredicate = [NSPredicate predicateWithFormat:predicateString];
+            [request setPredicate:filterPredicate];
+        }
+        
+        @catch ( NSException *e )
+        {
+            NSLog(@"Error handled: %@",e);
+            NSString* appDomain = [[NSBundle mainBundle] bundleIdentifier];
+            [userDefaults removePersistentDomainForName:appDomain];
+        }
+        
+        @finally
+        {
+        }
+        
+        
     }
     
     

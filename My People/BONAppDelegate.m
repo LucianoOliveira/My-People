@@ -156,6 +156,7 @@
 - (void)applicationWillEnterForeground:(UIApplication *)application
 {
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+    NSLog(@"Got Here");
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
@@ -193,12 +194,12 @@
             NSString *country = [individualArray objectAtIndex:3];
             NSString *role = [individualArray objectAtIndex:4];
             NSString *operatingSystem = [individualArray objectAtIndex:5];
-            NSString *technology = [individualArray objectAtIndex:6];
-            NSString *function = [individualArray objectAtIndex:7];
+            NSString *technologyUsed = [individualArray objectAtIndex:6];
+            NSString *functionPerformed = [individualArray objectAtIndex:7];
             NSString *status = [individualArray objectAtIndex:8];
             NSString *globalStatus = [individualArray objectAtIndex:9];
             
-            [People CreatePeopleWithID:peopleID Country:country City:city Company:company Role:role OperatingSystem:operatingSystem Technology:technology Function:function Status:status GlobalStatus:globalStatus context:_managedObjectContext];
+            [People CreatePeopleWithID:peopleID Country:country City:city Company:company Role:role OperatingSystem:operatingSystem Technology:technologyUsed Function:functionPerformed Status:status GlobalStatus:globalStatus context:_managedObjectContext];
             
         }
     }

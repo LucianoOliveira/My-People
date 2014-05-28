@@ -4,7 +4,7 @@
         <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="company" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="country" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="function" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="functionPerformed" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="globalStatus" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="idPeople" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="operatingSystem" optional="YES" attributeType="String" syncable="YES"/>

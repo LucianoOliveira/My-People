@@ -14,7 +14,7 @@
 @dynamic city;
 @dynamic company;
 @dynamic country;
-@dynamic function;
+@dynamic functionPerformed;
 @dynamic globalStatus;
 @dynamic idPeople;
 @dynamic operatingSystem;

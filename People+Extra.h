@@ -10,6 +10,6 @@
 
 @interface People (Extra)
 
-+(People*)CreatePeopleWithID:(NSString*)idPeople Country:(NSString *)country City:(NSString *)city Company:(NSString *)company Role:(NSString *)role OperatingSystem:(NSString *)operatingSystem Technology:(NSString *)technology Function:(NSString *)function Status:(NSString *)status GlobalStatus:(NSString *)globalStatus context:(NSManagedObjectContext *)context;
++(People*)CreatePeopleWithID:(NSString*)idPeople Country:(NSString *)country City:(NSString *)city Company:(NSString *)company Role:(NSString *)role OperatingSystem:(NSString *)operatingSystem Technology:(NSString *)technologyUsed Function:(NSString *)functionPerformed Status:(NSString *)status GlobalStatus:(NSString *)globalStatus context:(NSManagedObjectContext *)context;
 
 @end

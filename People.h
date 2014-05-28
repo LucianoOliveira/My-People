@@ -15,7 +15,7 @@
 @property (nonatomic, retain) NSString * city;
 @property (nonatomic, retain) NSString * company;
 @property (nonatomic, retain) NSString * country;
-@property (nonatomic, retain) NSString * function;
+@property (nonatomic, retain) NSString * functionPerformed;
 @property (nonatomic, retain) NSString * globalStatus;
 @property (nonatomic, retain) NSString * idPeople;
 @property (nonatomic, retain) NSString * operatingSystem;

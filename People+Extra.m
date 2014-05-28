@@ -10,7 +10,7 @@
 
 @implementation People (Extra)
 
-+(People*)CreatePeopleWithID:(NSString *)idPeople Country:(NSString *)country City:(NSString *)city Company:(NSString *)company Role:(NSString *)role OperatingSystem:(NSString *)operatingSystem Technology:(NSString *)technology Function:(NSString *)function Status:(NSString *)status GlobalStatus:(NSString *)globalStatus context:(NSManagedObjectContext *)context
++(People*)CreatePeopleWithID:(NSString *)idPeople Country:(NSString *)country City:(NSString *)city Company:(NSString *)company Role:(NSString *)role OperatingSystem:(NSString *)operatingSystem Technology:(NSString *)technologyUsed Function:(NSString *)functionPerformed Status:(NSString *)status GlobalStatus:(NSString *)globalStatus context:(NSManagedObjectContext *)context
 {
     People* newPeople;
     
@@ -35,8 +35,8 @@
             newPeople.company = company;
             newPeople.role = role;
             newPeople.operatingSystem = operatingSystem;
-            newPeople.technologyUsed = technology;
-            newPeople.function = function;
+            newPeople.technologyUsed = technologyUsed;
+            newPeople.functionPerformed = functionPerformed;
             newPeople.status = status;
             newPeople.globalStatus = globalStatus;
             
